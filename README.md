@@ -37,6 +37,8 @@ The circuit can be broken down into two parts
  
  The following files are used to calibrate the themometer to a reference thermometer and measure temperature. The Steinhart-Hart Equation is used to calculate temperature values. 
  
+ ![Steinhart-Hart Equation](https://www.ametherm.com/wp-content/uploads/2017/07/Steinhart-and-Hart-Equations-2-4-300x171.jpg)
+ 
  #### Calibrate
  
  The code in this file calculates the resistance across the thermistor at a given temperature. These values are used in Co_Calc to calibrate the thermometer.
