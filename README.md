@@ -25,14 +25,15 @@ The circuit can be broken down into two parts
 
  #### Voltage Dividor
  
- [insert circuit diagram]
- 
  The 5V output from the Arduino goes into a 4.096 VRef, which then goes into a voltage divider circuit containing the NTC thermistor and 9.8k Ohm resistor. A wire that reads the voltage across the thermistor is located between the two resistors and connects to an Arduino digital input port. 
   
  #### LED
 
-
-
- The thermometer 
+ Digital output pins power a certain LEDs depending on the calculated temperature.
+ 
  ## Code Breakdown
+ 
+ #### Calibrate
+ 
+ The code in this file 
 
