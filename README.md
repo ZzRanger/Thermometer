@@ -17,11 +17,9 @@ This thermometer was made for the Science Olympiad event Detector Building. This
  - Breadboard
  - Lots of Jumper Wires
  
-[insert labeled diagram here]
-
  ## Circuit Breakdown
 
-[picture of whole circuit]
+![Circuit Diagram](thermometer_circuit.png)
 
 The circuit can be broken down into two parts
 
@@ -32,8 +30,7 @@ The circuit can be broken down into two parts
  The 5V output from the Arduino goes into a 4.096 VRef, which then goes into a voltage divider circuit containing the NTC thermistor and 9.8k Ohm resistor. A wire that reads the voltage across the thermistor is located between the two resistors and connects to an Arduino digital input port. 
   
  #### LED
- 
- [insert circuit diagram]
+
 
 
  The thermometer 
