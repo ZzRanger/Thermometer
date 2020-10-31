@@ -4,7 +4,7 @@ The following repository contains my homemade thermometer project.
 
 ## Purpose & Function
 
-This thermometer was made for the Science Olympiad event Detector Building. This repo contains code that finds the temperature of the thermometer probe and calibrates the thermometer to a reference thermometer. A picture of the electrical circuit can be found below.
+This thermometer was made for the Science Olympiad event Detector Building. This repo contains code that finds the temperature of the thermometer probe and calibrates the thermometer to a reference thermometer. 
 
 ## Parts Used
 
