@@ -33,7 +33,19 @@ The circuit can be broken down into two parts
  
  ## Code Breakdown
  
+ #### General
+ 
+ The following files are used to calibrate the themometer to a reference thermometer and measure temperature. The Steinhart-Hart Equation is used to calculate temperature values. 
+ 
  #### Calibrate
  
- The code in this file 
+ The code in this file calculates the resistance across the thermistor at a given temperature. These values are used in Co_Calc to calibrate the thermometer.
+ 
+ #### Co_Calc
+ 
+ The code in this file caluclates the 
+ 
+ #### Thermometer_1
+ 
+ The code reads the voltage across the thermistor and converts that to resistance. Then, using the Steinhart-hart Equation, resistance is converted to a temperature value.
 
