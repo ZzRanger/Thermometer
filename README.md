@@ -39,15 +39,11 @@ The circuit can be broken down into two parts
  
  ![Steinhart-Hart Equation](https://www.ametherm.com/wp-content/uploads/2017/07/Steinhart-and-Hart-Equations-2-4-300x171.jpg)
  
- #### Calibrate
+ #### Voltage_Reference
  
- The code in this file calculates the resistance across the thermistor at a given temperature. These values are used in Co_Calc to calibrate the thermometer.
+ The code in this file calculates the resistance across the thermistor at a given temperature. These values are used in Co_Calc to calibrate the thermometer. It also finds the ideal coefficients for the Steinhart-Hart Equation
  
- #### Co_Calc
- 
- The code in this file caluclates the 
- 
- #### Thermometer_1
+ #### Voltage_Reference
  
  The code reads the voltage across the thermistor and converts that to resistance. Then, using the Steinhart-hart Equation, resistance is converted to a temperature value.
 
