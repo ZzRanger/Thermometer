@@ -19,7 +19,7 @@ This thermometer was made for the Science Olympiad event Detector Building. This
  
  ## Circuit Breakdown
 
-![Circuit Diagram](circuitDiagram.png)
+![Circuit Diagram](circuitDiagram.PNG)
 
 The circuit can be broken down into two parts
 
