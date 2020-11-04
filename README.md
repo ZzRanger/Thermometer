@@ -20,6 +20,7 @@ This thermometer was made for the Science Olympiad event Detector Building. This
  ## Circuit Breakdown
 
 ![Circuit Diagram](circuitDiagram.PNG)
+*Note: the original diagram is missing a parallel connection from the VRef output to the Arudino ARef pin*
 
 The circuit can be broken down into two parts
 
