@@ -41,7 +41,7 @@ The circuit can be broken down into two parts
  
  #### Voltage_Reference
  
- The code in this file calculates the resistance across the thermistor at a given temperature. These values are used in Co_Calc to calibrate the thermometer. It also finds the ideal coefficients for the Steinhart-Hart Equation
+ The code in this file calculates the resistance across the thermistor at a given temperature. These values are used to calibrate the thermometer. It also finds the ideal coefficients for the Steinhart-Hart Equation using the calculate() function.
  
  #### Voltage_Reference_Thermometer
  
